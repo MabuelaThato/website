@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 function changeArea(event) {
   event.preventDefault();
   let input = document.querySelector(".searchBar");
