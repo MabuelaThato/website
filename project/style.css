@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  background-image: linear-gradient(
+    rgba(224, 135, 32, 0.959),
+    rgba(65, 30, 6, 0.8)
+  );
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  background-repeat: no-repeat;
+}
+body {
+  color: white;
+}
+a {
+  color: white;
+}
+h1,
+p {
+  text-align: center;
+}
+h1 {
+  font-weight: normal;
+}
+
+.area {
+  font-size: 30px;
+}
+.button {
+  background-color: #675a4d;
+  border: 1px solid #675a4d;
+  border-radius: 5px;
+  margin: 10px 3px 10px 0;
+  transition: all 200ms ease-in-out;
+}
+.button:hover {
+  background-color: white;
+  color: #d59b38;
+  border: 1px solid #675a4d;
+}
+#searchBar {
+  margin: 10px 3px 10px 0;
+  background-color: #675a4d;
+  border: 1px solid #675a4d;
+}
+.today {
+  padding: 50px 10px 20px;
+
+  border-radius: 10px;
+}
+.hour {
+  padding: 30px 0;
+  margin: 15px 20px;
+  display: grid;
+  justify-items: center;
+  border-radius: 1px solid rgba(0, 0, 0, 0.3);
+}
+.col {
+  font-weight: bold;
+}
+
+.day1,
+.day2,
+.day3,
+.day4,
+.day5 {
+  padding: 5px 0;
+  margin: 4px 15px 4px 0;
+}
+.day1,
+.day2,
+.day3,
+.hour {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+.day3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+}
+.day4,
+.day5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
